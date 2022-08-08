@@ -20,4 +20,4 @@ app.get("/get-movies", queryMovies);
 app.post("/add-employee", addEmployee);
 
 app.get("/", (request, response) => response.send("Hey here is my API"));
-app.listen(PORT, () => console.log("API is on running on", PORT));
+app.listen(process.env.PORT, () => console.log("API is on running on", process.env.PORT));
