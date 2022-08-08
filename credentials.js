@@ -1,0 +1,1 @@
+export const uri = 'mongodb+srv://tyricart:MyBoyZeus717$$@damianclustero.1snb82p.mongodb.net/?retryWrites=true&w=majority'
